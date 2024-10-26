@@ -1,0 +1,36 @@
+.nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 270px;
+}
+.card{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.nav-text{
+    font-size: 12px;
+    font-weight: 700;
+    color: #00000080;
+}
+@media(max-width:550px){
+    .nav-container{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        gap: 270px;
+    }
+    .card{
+        display: none;
+        gap: 15px;
+        align-items: center;
+    }
+    .nav-text{
+        font-size: 12px;
+        font-weight: 700;
+        color: #00000080;
+    }
+}

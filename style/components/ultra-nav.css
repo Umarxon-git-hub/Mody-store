@@ -1,0 +1,116 @@
+.ultra-nav{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.ultra-nav-carda{
+    display: none;
+}
+.ultra-nav-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 10px;
+}
+.ultra-nav-card{
+    display: flex;
+    align-items: center;
+    width: 390px;
+    height: 308px;
+}
+.ultra-nav-title{
+    font-size: 18px;
+    font-weight: 700;
+}
+.ultra-nav-text{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.ultra-nav-card-container{
+    margin-left: 50px;
+}
+.ultra-nav-card-wrapper{
+    margin-top: 10px;
+}
+.tex-1-uls{
+    display: none;
+}
+@media (max-width:550px){
+    .case{
+        width: 135px;
+        height: 172px;
+    }
+        .ultra-nav{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0px auto;
+        }
+        .ultra-nav-carda{
+            display: flex;
+
+        }
+        .ultra-nav-cards{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px 10px;
+        }
+        .ultra-nav-card:nth-child(2n){
+            display: none;
+        }
+        .ultra-nav-card:nth-child(3n){
+            display: none;
+        }
+        .ultra-nav-card:nth-child(4n){
+            display: none;
+        }
+        .ultra-nav-card:nth-child(6n){
+            display: none;
+        }
+        .ultra-nav-card:nth-child(7n){
+            display: none;
+        }
+        .ultra-nav-card:nth-child(8n){
+            display: none;
+        }
+        .ultra-nav-card{
+            display: flex;
+            align-items: center;
+            width: 390px;
+            height: 308px;
+        }
+        .ultra-nav-title{
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        .ultra-nav-text{
+            font-size: 24px;
+            font-weight: 700;
+            margin-top: 10px;
+        }
+        .ultra-nav-card-wrappers{
+           display: flex;
+           gap: 3px;
+        }
+        .tex-1-uls{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            color:aliceblue;
+        }
+        .tex-1-ul-liS{
+            font-size: 16;
+            font-weight: 700;
+        }
+        .active{
+            width: 10px;
+            height: 10px;
+
+        }
+}
